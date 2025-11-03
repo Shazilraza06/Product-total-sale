@@ -3,7 +3,7 @@ import java.util.*;
 
 public class ProductSalesTotal {
     public static void main(String[] args) {
-        String fileName = "C:\\Users\\Wasi\\java\\EVE01Sales.txt";  // Your file name
+        String fileName = "C:\\Users\\Shazil\\java\\EVE01Sales.txt";  // Your file name
         Map<String, Double> productSales = new HashMap<>();
         double grandTotal = 0;
 
@@ -43,4 +43,5 @@ public class ProductSalesTotal {
             System.out.println("Invalid number format in file.");
         }
     }
+
 }
